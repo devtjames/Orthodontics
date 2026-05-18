@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smile Quiz | Find Your Best Orthodontic Treatment</title>
+  <meta name="description" content="Interactive smile quiz for Invisalign, braces, retainers, teen orthodontics, adult treatment, and virtual consultations.">
+  <script src="https://cdn.tailwindcss.com"></script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/styles.css"><script defer src="js/main.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Smile Quiz"}</script>
+</head>
+<body data-page="smile-quiz.html">
+  <header id="site-header" class="site-header"></header>
+  <main>
+    <section class="hero"><img class="hero-media" src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1800&q=85" alt="Smile quiz patient experience"><div class="container-xl"><div class="max-w-3xl fade-up"><span class="eyebrow">Smile Quiz</span><h1 class="mt-5 page-title">Turn curiosity into a consult.</h1><p class="mt-6 lead">A multi-step lead capture flow with treatment intent, timeline, budget, and contact fields.</p></div></div></section>
+    <section class="section"><div class="container-xl grid-2">
+      <form class="lux-card p-6 md:p-8 crm-form fade-up" data-steps data-form="smile-quiz">
+        <div class="step-dots mb-6"><span class="step-dot"></span><span class="step-dot"></span><span class="step-dot"></span></div>
+        <div class="step active"><h2 class="text-3xl font-black">What do you want to improve?</h2><div class="mt-5 grid gap-3"><label class="lux-card p-4"><input name="goal" type="radio" value="Crowding"> Crowding or spacing</label><label class="lux-card p-4"><input name="goal" type="radio" value="Bite"> Bite or jaw alignment</label><label class="lux-card p-4"><input name="goal" type="radio" value="Cosmetic"> Cosmetic smile makeover</label></div><button class="mt-6 btn-primary" type="button" data-next>Next</button></div>
+        <div class="step"><h2 class="text-3xl font-black">How soon would you like to start?</h2><div class="mt-5 grid gap-3"><label class="lux-card p-4"><input name="timeline" type="radio" value="Now"> Immediately</label><label class="lux-card p-4"><input name="timeline" type="radio" value="30 days"> Within 30 days</label><label class="lux-card p-4"><input name="timeline" type="radio" value="Researching"> I am researching</label></div><div class="mt-6 flex gap-3"><button class="btn-secondary" type="button" data-prev>Back</button><button class="btn-primary" type="button" data-next>Next</button></div></div>
+        <div class="step"><h2 class="text-3xl font-black">Get your match</h2><div class="mt-5 form-grid"><div class="field"><label for="quiz-name">Name</label><input id="quiz-name" name="name" required></div><div class="field"><label for="quiz-phone">Phone</label><input id="quiz-phone" name="phone" required></div><button class="btn-primary" type="submit">Show My Treatment Match</button><p class="form-status text-sm font-bold text-teal-700" role="status"></p></div></div>
+      </form>
+      <div class="lux-card p-6 md:p-8 fade-up">
+        <span class="eyebrow">AI Smile Assessment UI</span><h2 class="mt-4 text-4xl font-black">Smart preview module.</h2><p class="mt-4 leading-7 text-slate-600">Placeholder UI for future photo analysis, issue detection, confidence scoring, and treatment recommendations.</p>
+        <div class="mt-6 grid gap-3"><div class="rounded-lg bg-teal-50 p-4"><p class="text-sm font-black text-teal-700">Detected intent</p><p class="mt-1 font-bold">Clear aligner candidate, moderate crowding</p></div><div class="rounded-lg bg-blue-50 p-4"><p class="text-sm font-black text-blue-700">Next best action</p><p class="mt-1 font-bold">Book digital scan and financing preview</p></div></div>
+      </div>
+    </div></section>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>

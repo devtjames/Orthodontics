@@ -1,0 +1,67 @@
+Act as a world-class senior frontend architect, elite UI/UX designer, CRO strategist, luxury healthcare website engineer, SEO expert, and premium orthodontics digital funnel specialist. [[4](https://academy.techpresso.co/prompts/claude-prompts)]
+
+Your task is to generate a COMPLETE MULTI-PAGE production-grade Orthodontics Website Ecosystem for a premium orthodontic clinic.
+
+This is NOT a brochure website.
+This is a high-converting patient acquisition and revenue generation system.
+
+Build a luxury Apple-level orthodontics platform offering:
+- Invisalign
+- Braces
+- Teen Orthodontics
+- Adult Orthodontics
+- Kids Orthodontics
+- Retainers
+- Smile Makeovers
+- Jaw Alignment
+- Emergency Orthodontics
+- Virtual Consultations
+
+TECH STACK:
+- HTML5
+- TailwindCSS CDN
+- Custom CSS
+- Vanilla JavaScript
+- Mobile-first architecture
+- Fully responsive design
+- Semantic SEO-ready markup
+- Reusable components
+- Shared navbar/footer
+- Separate CSS/JS files
+
+DESIGN STYLE:
+- Medical luxury aesthetic
+- White + blue + teal + soft gold accents
+- Glassmorphism
+- Smooth animations
+- Sticky CTA buttons
+- Floating WhatsApp
+- Premium forms
+- Elegant hover states
+- Conversion-focused layouts
+
+Generate ALL pages:
+Home, About, Treatments, Invisalign, Braces, Pricing, Financing, Before/After, Testimonials, Blog, FAQ, Contact, Locations, Smile Quiz, Booking, Virtual Consultation, Offers.
+
+Include:
+- Lead capture funnels
+- Exit intent popup
+- Financing calculator
+- AI smile assessment UI
+- Review/testimonial sliders
+- Multi-step consultation forms
+- Local SEO sections
+- Structured schema placeholders
+- CRM-ready forms
+- Trust badges
+- Countdown offers
+- Consultation scheduler UI
+
+Output:
+- Complete folder structure
+- Each file separately
+- Production-ready clean code
+- Premium stock image placeholders
+- Fully responsive layout
+
+Final result must look like a $50,000+ elite orthodontic conversion-focused digital sales platform.

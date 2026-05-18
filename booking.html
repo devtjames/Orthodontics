@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book an Orthodontic Consultation | Aura Orthodontics</title>
+  <meta name="description" content="Schedule an Invisalign, braces, or virtual orthodontic consultation with a premium orthodontic studio.">
+  <script src="https://cdn.tailwindcss.com"></script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/styles.css"><script defer src="js/main.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ScheduleAction","name":"Book Orthodontic Consultation"}</script>
+</head>
+<body data-page="booking.html">
+  <header id="site-header" class="site-header"></header>
+  <main>
+    <section class="hero"><img class="hero-media" src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1800&q=85" alt="Orthodontic consultation scheduler"><div class="container-xl"><div class="max-w-3xl fade-up"><span class="eyebrow">Booking</span><h1 class="mt-5 page-title">Choose your consultation time.</h1><p class="mt-6 lead">A scheduler-style lead capture UI for free scans, virtual consults, emergencies, and new patient visits.</p></div></div></section>
+    <section class="section"><div class="container-xl grid-2">
+      <form class="lux-card p-6 md:p-8 form-grid crm-form fade-up" data-form="booking">
+        <h2 class="text-3xl font-black">Consultation scheduler</h2>
+        <div class="form-grid two"><div class="field"><label for="book-name">Name</label><input id="book-name" name="name" required></div><div class="field"><label for="book-phone">Phone</label><input id="book-phone" name="phone" required></div></div>
+        <div class="form-grid two"><div class="field"><label for="book-date">Preferred date</label><input id="book-date" name="date" type="date" required></div><div class="field"><label for="book-time">Preferred time</label><select id="book-time" name="time"><option>Morning</option><option>Afternoon</option><option>Evening</option></select></div></div>
+        <div class="field"><label for="book-type">Visit type</label><select id="book-type" name="type"><option>In-office consultation</option><option>Virtual consultation</option><option>Emergency orthodontics</option><option>Retainer appointment</option></select></div>
+        <button class="btn-primary" type="submit">Request Appointment</button><p class="form-status text-sm font-bold text-teal-700" role="status"></p>
+      </form>
+      <div class="grid gap-4 fade-up"><article class="lux-card p-6"><h3>Included</h3><p>Digital scan, doctor evaluation, treatment options, timeline estimate, and financing preview.</p></article><article class="lux-card p-6"><h3>Fast-track</h3><p>Emergency orthodontic concerns are routed for same-day coordinator review.</p></article></div>
+    </div></section>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>
